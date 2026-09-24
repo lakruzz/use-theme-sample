@@ -1,0 +1,13 @@
+{
+  "name": "use-theme-sample",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "remote-astro-theme": "github:mindovermachine-dev/remote-astro-theme#main"
+  },
+  "scripts": {
+    "dev": "remote-astro-theme dev",
+    "build": "remote-astro-theme build",
+    "preview": "remote-astro-theme preview"
+  }
+}
