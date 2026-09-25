@@ -33,7 +33,11 @@ export default {
       label: "Vision & Mission",
       translations: { da: "Vision & Mission" },
       items: [
-        { label: "The Manifesto", translations: { da: "Manifestet" }, slug: "vision/manifesto" },
+        {
+          label: "The Manifesto",
+          translations: { da: "Manifestet" },
+          slug: "vision/manifesto",
+        },
         {
           label: "The Regenerative Charter",
           translations: { da: "Det regenerative Charter" },
@@ -50,8 +54,16 @@ export default {
       label: "About Us",
       translations: { da: "Om Os" },
       items: [
-        { label: "Join Us", translations: { da: "Vær med" }, slug: "about/join" },
-        { label: "Contact", translations: { da: "Kontakt" }, slug: "about/contact" },
+        {
+          label: "Join Us",
+          translations: { da: "Vær med" },
+          slug: "about/join",
+        },
+        {
+          label: "Contact",
+          translations: { da: "Kontakt" },
+          slug: "about/contact",
+        },
         {
           label: "Founder's Story",
           translations: { da: "Founder's Story" },
@@ -84,8 +96,16 @@ export default {
       label: "Methodology",
       translations: { da: "Metoder" },
       items: [
-        { label: "Collaboration", translations: { da: "Samarbejde" }, slug: "methodology/collaboration" },
-        { label: "How We Work", translations: { da: "Sådan arbejder vi" }, slug: "methodology/how-we-work" },
+        {
+          label: "Collaboration",
+          translations: { da: "Samarbejde" },
+          slug: "methodology/collaboration",
+        },
+        {
+          label: "How We Work",
+          translations: { da: "Sådan arbejder vi" },
+          slug: "methodology/how-we-work",
+        },
       ],
     },
   ],
